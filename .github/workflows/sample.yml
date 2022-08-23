@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Get Statrted
 
 # Controls when the workflow will run
 on:
@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           exho What is in this directory?
-          is -a
+          Is -a
           echo
           echo Is Java installed?
           java -version
